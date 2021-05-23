@@ -1,5 +1,5 @@
 ---
-name: Documentation request
+name: Add New Resources
 about: Add new quality resource to the list
 title: '[Res]'
 labels: 'Add New Resource, Discussion Ongoing, Review Required'
