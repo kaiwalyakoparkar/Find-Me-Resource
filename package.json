@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/kaiwalyakoparkar/Find-Me-Resource/issues"
   },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "prettier --write"]
+  },
   "homepage": "https://github.com/kaiwalyakoparkar/Find-Me-Resource#readme"
 }
