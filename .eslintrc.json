@@ -1,27 +1,19 @@
 {
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "extends": ["airbnb-base", "eslint:recommended", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": ["error"],
-    "no-unused-vars": [
-        "error",
-        {
-            "argsIgnorePattern": "^_"
-        }
+    "env": {
+      "es2020": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
     ],
-    "no-unused-expressions": [
-        2,
-        {
-            "allowShortCircuit": true
-        }
-    ],
-    "no-console": ["error"],
-    "no-var": ["error"],
-    "prefer-destructuring": [1]
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+      "semi": ["error", "always"],
+      "prefer-const": "error",
+      "eqeqeq": ["error", "always"],
+      "curly": ["error"]
+    }
   }
-}
-
+  
