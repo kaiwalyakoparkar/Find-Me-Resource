@@ -1,0 +1,30 @@
+{
+  "name": "Find-Me-Resource",
+  "version": "1.0.0",
+  "description": "This project contains accumulation of all the useful and free resouces need for a Computer Science student.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiwalyakoparkar/Find-Me-Resource.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiwalyakoparkar/Find-Me-Resource/issues"
+  },
+  "homepage": "https://github.com/kaiwalyakoparkar/Find-Me-Resource#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
