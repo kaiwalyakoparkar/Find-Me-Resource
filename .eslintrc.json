@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-unused-vars": [
+        "error",
+        {
+            "argsIgnorePattern": "^_"
+        }
+    ],
+    "no-unused-expressions": [
+        2,
+        {
+            "allowShortCircuit": true
+        }
+    ],
+    "no-console": ["error"],
+    "no-var": ["error"],
+    "prefer-destructuring": [1]
+  }
+}
+
