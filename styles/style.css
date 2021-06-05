@@ -1,17 +1,19 @@
-:root{
-    /*Main theme of the project*/
-    --main-theme1: #06908f;
-    --main-theme2: #172121;
+:root {
+	/*Main theme of the project*/
+	--main-theme1: #06908f;
+	--main-theme2: #172121;
 
-    /*Resource table pallete*/
-    --status-undone: #d1495b;
-    --status-done: #84e296;
+	/*Resource table pallete*/
+	--status-undone: #d1495b;
+	--status-done: #84e296;
 
-    /*Navbar pallete*/
-    --navbar-butto-text:#87D08A;
+	/*Navbar pallete*/
+	--navbar-butto-text: #87d08a;
 }
 
-*, *::before, *::after{
-    box-sizing: border-box;
-    margin-top: 0;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin-top: 0;
 }
