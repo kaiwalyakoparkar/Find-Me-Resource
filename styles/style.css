@@ -131,3 +131,17 @@ a {
 	font-size: 1.4rem;
 	border-radius: 50em;
 }
+
+.footer-title{
+	font-size: 1.5rem;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	margin: 2rem;
+}
+
+.res{
+	color: var(--main-theme1);
+}
