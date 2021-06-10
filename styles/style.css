@@ -109,3 +109,25 @@ a {
 	margin: 1rem 0rem;
 	font-size: 1.5em;
 }
+
+#contact-form{
+	display: flex;
+	flex-direction: column;
+}
+
+.form-entry{
+	margin: .5rem 0rem;
+	padding: 1rem;
+	font-size: .8rem;
+}
+
+#message{
+	padding: 3rem;
+}
+
+#submit-button{
+	background-color: var(--main-theme1);
+	color: var(--main-theme-text);
+	font-size: 1.4rem;
+	border-radius: 50em;
+}
