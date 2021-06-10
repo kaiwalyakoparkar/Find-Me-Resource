@@ -2,6 +2,7 @@
 	/*Main theme of the project*/
 	--main-theme1: #06908f;
 	--main-theme2: #172121;
+	--main-theme-text: #ffffff;
 
 	/*Resource table pallete*/
 	--status-undone: #d1495b;
@@ -15,5 +16,132 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	margin-top: 0;
+	margin: 0;
+}
+
+body {
+	background-color: var(--main-theme2);
+	color: var(--main-theme-text);
+}
+
+nav {
+	background-color: var(--main-theme1);
+	padding: 1.5em;
+	text-align: left;
+	/* position:fixed; */
+	/* width: 100%; */
+	color: var(--main-theme-text);
+	/* z-index: 9999; */
+}
+
+.landing-image {
+	height: 200px;
+	width: 300px;
+	margin: 2em;
+}
+
+.landing,
+.about,
+.contact {
+	padding: 0em 2em 0em 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.head-title {
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 1.5em 0em;
+}
+
+.desc {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 1em 0rem;
+}
+a {
+	text-decoration: none;
+	color: var(--main-theme-text);
+	padding: 2rem;
+}
+.find-button {
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 0.5rem;
+	background-color: var(--main-theme1);
+	height: 2em;
+	width: 7em;
+	border-radius: 50em;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-image {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.about-title,
+.contact-title {
+	font-size: 2rem;
+	text-align: center;
+	margin: 2rem 0rem;
+}
+
+.about-text{
+	margin: 1rem 0rem;
+	font-size: 1.5em;
+}
+
+#contact-form{
+	display: flex;
+	flex-direction: column;
+}
+
+.form-entry{
+	margin: .5rem 0rem;
+	padding: 1rem;
+	font-size: .8rem;
+}
+
+#message{
+	padding: 3rem;
+}
+
+#submit-button{
+	background-color: var(--main-theme1);
+	color: var(--main-theme-text);
+	font-size: 1.4rem;
+	border-radius: 50em;
+}
+
+.footer-title{
+	font-size: 1.5rem;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	margin: 2rem;
+}
+
+.res{
+	color: var(--main-theme1);
 }

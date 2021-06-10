@@ -41,7 +41,7 @@
 
     <!-- This is navbar section -->
     <nav>
-      <h2>Find me resource</h2>
+      <h2>Find Me Resource</h2>
     </nav>
 
     <!-- This is landing page section -->
@@ -52,7 +52,11 @@
       <p class="desc">
         Compilation of all the resources you need as a student
       </p>
-      <button class="find">Find</button>
+      <a href="#">
+        <div class="find-button">
+          Find
+        </div>
+      </a>
       <div class="landing-image-div">
         <img src="./assets/project-images/resource-accessed-3.png" alt="Person stading around quality resources" class="landing-image">
       </div>
@@ -61,72 +65,74 @@
     <!-- This is the about section -->
     <section class="about">
       <p class="about-title">
-        Find Resources
+        Find <span class="res">Resource</span>
       </p>
 
-      <!-- 100% Free content -->
-      <div class="about-cards">
-        <img src="./assets/project-images/free-1.png" alt="Person enjoying freedom">
-        <p class="about-text">
-          100% Free
-        </p>
-      </div>
+      <div class="cards">
+        <!-- 100% Free content -->
+        <div class="about-cards">
+          <img src="./assets/project-images/free-1.png" alt="Person enjoying freedom" class="about-image">
+          <div class="about-text">
+            100% Free
+          </div>
+        </div>
 
-      <!-- Assured Quality -->
-      <div class="about-cards">
-        <img src="./assets/project-images/quality-2.png" alt="Quality assured cotent">
-        <p class="about-text">
-          Assured Quality
-        </p>
-      </div>
+        <!-- Assured Quality -->
+        <div class="about-cards">
+          <img src="./assets/project-images/quality-2.png" alt="Quality assured cotent" class="about-image">
+          <div class="about-text">
+            Assured Quality
+          </div>
+        </div>
 
-      <!-- All subjects included -->
-      <div class="about-cards">
-        <img src="./assets/project-images/all-topics-3.png" alt="All Subjects">
-        <p class="about-text">
-          All Subjects
-        </p>
-      </div>
+        <!-- All subjects included -->
+        <div class="about-cards">
+          <img src="./assets/project-images/all-topics-3.png" alt="All Subjects" class="about-image">
+          <div class="about-text">
+            All Subjects
+          </div>
+        </div>
 
-      <!-- Built by CS Students -->
-      <div class="about-cards">
-        <img src="./assets/project-images/all-topics-3.png" alt="Students building this website">
-        <p class="about-text">
-          Built by CS Students
-        </p>
+        <!-- Built by CS Students -->
+        <div class="about-cards">
+          <img src="./assets/project-images/cs-students-1.png" alt="Students building this website" class="about-image">
+          <div class="about-text">
+            Built by CS Students
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- This is the contact me section -->
     <section class="contact">
       <p class="contact-title">
-        Not finding resources
+        Not finding <span class="res">Resource</span>?
       </p>
       <p class="desc">
-        Want to add/remove your resource or got something to discuss? Drop message
+        Write us to discuss on!
       </p>
 
       <!-- Form goes here -->
-      <form action="#" id="contact-form">
-        <input type="text" placeholder="First Name" id="name-field" class="form-entry">
+      <form id="contact-form">
+        <input type="text" placeholder="First Name" id="name-field" class="form-entry" aria-required="true">
 
-        <input type="text" placeholder="Last Name" id="last-name-field" class="form-entry">
+        <input type="text" placeholder="Last Name" id="last-name-field" class="form-entry" aria-required="true">
 
-        <input type="email" placeholder="Email" id="email" class="form-entry">
+        <input type="email" placeholder="Email" id="email" class="form-entry" aria-required="true">
 
-        <input type="text" placeholder="Your message" id="message" class="form-entry">
+        <input type="text" placeholder="Your message" id="message" class="form-entry" aria-required="true">
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="form-entry" id="submit-button">
       </form>
     </section>
 
     <!-- This is the footer section -->
     <footer>
       <p class="footer-title">
-        Find My Resource
+        Find My <span class="res">Resource</span>
       </p>
       <p class="copyright">
-        &copy; Copyrights reserverved to Kaiwalya Koparkar
+        Copyright &copy; 2021 Kaiwalya Koparkar
       </p>
       <div class="socials">
         Socials here
