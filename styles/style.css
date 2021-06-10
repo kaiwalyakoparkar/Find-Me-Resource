@@ -52,7 +52,7 @@ nav {
 .head-title {
 	font-size: 2.5rem;
 	text-align: center;
-	padding: 1.5em 0em;
+	padding: 1em 0em;
 }
 
 .desc {
@@ -66,13 +66,14 @@ a {
 	padding: 2rem;
 }
 .find-button {
-	text-align: center;
+	align-items: center;
 	font-size: 1.5em;
 	padding-top: 0.5rem;
 	background-color: var(--main-theme1);
 	height: 2em;
 	width: 7em;
 	border-radius: 50em;
+	color: var(--main-theme-text);
 }
 
 .cards {
