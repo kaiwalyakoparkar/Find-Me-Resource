@@ -40,9 +40,9 @@ nav {
 	margin: 2em;
 }
 
-.landing,
-.about,
-.contact {
+#landing,
+#about,
+#contact {
 	padding: 0em 2em 0em 2em;
 	display: flex;
 	flex-direction: column;
@@ -106,43 +106,56 @@ a {
 	margin: 2rem 0rem;
 }
 
-.about-text{
+.about-text {
 	margin: 1rem 0rem;
 	font-size: 1.5em;
 }
 
-#contact-form{
+#contact-form {
 	display: flex;
 	flex-direction: column;
 }
 
-.form-entry{
-	margin: .5rem 0rem;
+.form-entry {
+	margin: 0.5rem 0rem;
 	padding: 1rem;
-	font-size: .8rem;
+	font-size: 0.8rem;
 }
 
-#message{
+#message {
 	padding: 3rem;
 }
 
-#submit-button{
+#submit-button {
 	background-color: var(--main-theme1);
 	color: var(--main-theme-text);
 	font-size: 1.4rem;
 	border-radius: 50em;
 }
 
-.footer-title{
+.footer-title {
 	font-size: 1.5rem;
 }
 
-footer{
+footer {
 	display: flex;
 	flex-direction: column;
 	margin: 2rem;
 }
 
-.res{
+.res {
 	color: var(--main-theme1);
+}
+
+.footer-links {
+	line-height: 1rem;
+	color: var(--main-theme1);
+}
+
+.copyright {
+	line-height: 2rem;
+}
+
+.socials {
+	line-height: 2rem;
 }
