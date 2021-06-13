@@ -49,8 +49,15 @@ nav {
 	align-items: center;
 }
 
+.landing-part1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .head-title {
 	font-size: 2.5rem;
+	/* font-size: 5vw; */
 	text-align: center;
 	padding: 1em 0em;
 }
@@ -67,7 +74,7 @@ a {
 }
 .find-button {
 	align-items: center;
-	font-size: 1.5em;
+	font-size: 6vw;
 	padding-top: 0.5rem;
 	background-color: var(--main-theme1);
 	height: 2em;
@@ -158,4 +165,44 @@ footer {
 
 .socials {
 	line-height: 2rem;
+}
+
+@media (min-width: 900px) {
+	nav {
+		font-size: 1.2vw;
+	}
+	#landing{
+		display: flex;
+		flex-direction: row;
+	}
+	.landing-part1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.landing-image{
+		height: 35vw;
+		width: 45vw;
+	}
+	.head-title {
+		font-size: 4.5vw;
+		text-align: left;
+		padding: 1em 2.5rem;
+	}
+	
+	.desc {
+		font-size: 2.5vw;
+		text-align: left;
+		padding: 1em 2.5rem;
+	}
+	.find-button {
+		align-items: center;
+		font-size: 2.33vw;
+		padding-top: 0.5rem;
+		background-color: var(--main-theme1);
+		height: 2em;
+		width: 7em;
+		border-radius: 50em;
+		color: var(--main-theme-text);
+	}
 }
