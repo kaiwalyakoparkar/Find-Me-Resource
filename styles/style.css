@@ -49,7 +49,7 @@ nav {
 	align-items: center;
 }
 
-.landing-part1{
+.landing-part1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -171,16 +171,38 @@ footer {
 	nav {
 		font-size: 1.2vw;
 	}
-	#landing{
+	#landing {
 		display: flex;
 		flex-direction: row;
 	}
-	.landing-part1{
+	.cards {
+		display: flex;
+		flex-direction: row;
+		padding: 7vw 0vw 10vw 0vw;
+	}
+	.about-title {
+		margin-top: 5vw;
+		font-size: 3vw;
+	}
+	.about-cards {
+		margin-right: 8vw;
+	}
+	.about-image {
+		width: 15vw;
+		height: 15vw;
+	}
+	.about-text {
+		font-size: 2vw;
+	}
+	#last-card {
+		margin: 0;
+	}
+	.landing-part1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.landing-image{
+	.landing-image {
 		height: 35vw;
 		width: 45vw;
 	}
@@ -189,7 +211,7 @@ footer {
 		text-align: left;
 		padding: 1em 2.5rem;
 	}
-	
+
 	.desc {
 		font-size: 2.5vw;
 		text-align: left;
