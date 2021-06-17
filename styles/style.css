@@ -129,6 +129,11 @@ a {
 	font-size: 0.8rem;
 }
 
+.name-lastname {
+	display: flex;
+	flex-direction: column;
+}
+
 #message {
 	padding: 3rem;
 }
@@ -138,6 +143,17 @@ a {
 	color: var(--main-theme-text);
 	font-size: 1.4rem;
 	border-radius: 50em;
+}
+
+#contact-us-image {
+	height: 250px;
+	width: 300px;
+}
+
+.contact-form-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .footer-title {
@@ -180,7 +196,8 @@ footer {
 		flex-direction: row;
 		padding: 7vw 0vw 10vw 0vw;
 	}
-	.about-title {
+	.about-title,
+	.contact-title {
 		margin-top: 5vw;
 		font-size: 3vw;
 	}
@@ -206,6 +223,45 @@ footer {
 		height: 35vw;
 		width: 45vw;
 	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	#contact-us-image {
+		height: 45vw;
+		width: 45vw;
+		margin-right: 3vw;
+		padding: 6vw 6vw 6vw 0vw;
+	}
+
+	.contact-form-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contact-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form-entry {
+		width: 40vw;
+		margin-bottom: 3vw;
+	}
+	.name-lastname {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		width: 40vw;
+	}
+	#name-field {
+		margin-right: 2vw;
+		width: 40vw;
+	}
+
 	.head-title {
 		font-size: 4.5vw;
 		text-align: left;
