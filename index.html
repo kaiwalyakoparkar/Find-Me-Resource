@@ -114,22 +114,30 @@
         Write us to discuss on!
       </p>
 
-      <!-- Form goes here -->
-      <form 
-	id="contact-form" 
-	action="https://formspree.io/f/xeqvkrnr"
-	method="POST"
-	>
-        <input type="text" name="first-name" placeholder="First Name" id="name-field" class="form-entry" aria-required="true">
+      <div class="contact-form-container">
+        <!-- Vector image -->
+        <img src="./assets/project-images/Contact-us-2.png" alt="Person contacting us" id="contact-us-image">
 
-        <input type="text" name="last-name" placeholder="Last Name" id="last-name-field" class="form-entry" aria-required="true">
+        <!-- Form goes here -->
+        <div class="contact-form">
+          <form 
+        id="contact-form" 
+        action="https://formspree.io/f/xeqvkrnr" method="POST"
+        >
+          <div class="name-lastname">
+            <input type="text" name="first-name" placeholder="First Name" id="name-field" class="form-entry" aria-required="true">
 
-        <input type="email" name="_replyto" placeholder="Email" id="email" class="form-entry" aria-required="true">
+            <input type="text" name="last-name" placeholder="Last Name" id="last-name-field" class="form-entry" aria-required="true">
+          </div>
 
-        <input type="text" name="message" placeholder="Your message" id="message" class="form-entry" aria-required="true">
+          <input type="email" name="_replyto" placeholder="Email" id="email" class="form-entry" aria-required="true">
 
-        <input type="submit" value="Submit" class="form-entry" id="submit-button">
-      </form>
+          <input type="text" name="message" placeholder="Your message" id="message" class="form-entry" aria-required="true">
+
+          <input type="submit" value="Submit" class="form-entry" id="submit-button">
+        </form>
+        </div>
+      </div>
     </section>
 
     <!-- This is the footer section -->
