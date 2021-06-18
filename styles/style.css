@@ -163,6 +163,7 @@ a {
 footer {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	margin: 2rem;
 }
 
@@ -180,9 +181,12 @@ footer {
 }
 
 .socials {
-	line-height: 2rem;
+	margin: 1rem 1rem 1rem 0rem;
 }
 
+.fab{
+	margin-right: 1rem;
+}
 @media (min-width: 900px) {
 	nav {
 		font-size: 1.2vw;
