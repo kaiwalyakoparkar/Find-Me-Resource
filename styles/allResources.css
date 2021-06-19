@@ -1,0 +1,36 @@
+:root {
+	/*Main theme of the project*/
+	--main-theme1: #06908f;
+	--main-theme2: #172121;
+	--main-theme-text: #ffffff;
+
+	/*Resource table pallete*/
+	--status-undone: #d1495b;
+	--status-done: #84e296;
+
+	/*Navbar pallete*/
+	--navbar-butto-text: #87d08a;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: var(--main-theme2);
+	color: var(--main-theme-text);
+}
+
+nav {
+	background-color: var(--main-theme1);
+	padding: 1.5em;
+	text-align: left;
+	/* position:fixed; */
+	/* width: 100%; */
+	color: var(--main-theme-text);
+	/* z-index: 9999; */
+}
+
