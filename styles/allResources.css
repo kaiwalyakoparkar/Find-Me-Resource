@@ -128,6 +128,29 @@ footer {
 		font-size: 3vw;
 	}
 
+	.category1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.card-container{
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.card{
+		background-color: var(--main-theme1);
+		font-size: 2rem;
+		max-width: 15vw;
+		max-height: 20vw;
+		margin: 1vw;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.contents {
 		display: flex;
 		flex-direction: row;
