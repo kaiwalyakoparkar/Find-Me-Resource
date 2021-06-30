@@ -24,6 +24,10 @@ body {
 	color: var(--main-theme-text);
 }
 
+.res{
+	color:var(--main-theme1);
+}
+
 nav {
 	background-color: var(--main-theme1);
 	padding: 1.5em;
@@ -44,6 +48,28 @@ a {
 	font-size: 2rem;
 	text-align: center;
 	margin: 2rem 0rem;
+}
+.category1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.card-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.card{
+	background-color: var(--main-theme1);
+	font-size: 2rem;
+	width: 70vw;
+	height: 100vw;
+	margin: 2vw;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer-title {
@@ -72,7 +98,7 @@ footer {
 }
 
 .fab {
-	margin-right: 1rem;
+	margin-right: 0.3rem;
 }
 
 .section-1,
