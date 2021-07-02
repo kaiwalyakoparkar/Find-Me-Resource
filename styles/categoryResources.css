@@ -146,17 +146,11 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .resresource-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     
     .banner{
         font-size: 3vw;
         background-color: var(--main-theme1);
-        width: 80vw;
+        width: 60vw;
         height: 5vw;
         display: flex;
         justify-content: center;
