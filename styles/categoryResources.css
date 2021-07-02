@@ -49,27 +49,39 @@ a {
 	text-align: center;
 	margin: 2rem 0rem;
 }
+
 .category1{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.card-container{
-	display: flex;
-	flex-direction: column;
+.resresource-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card{
-	background-color: var(--main-theme1);
-	font-size: 2rem;
-	width: 70vw;
-	height: 100vw;
-	margin: 2vw;
-	border-radius: 20px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.banner{
+    font-size: 7vw;
+    background-color: var(--main-theme1);
+    width: 90vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.checklist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size:5.5vw;
+    background-color: var(--status-undone);
+    border-radius: 20px;
 }
 
 .footer-title {
@@ -128,28 +140,39 @@ footer {
 		font-size: 3vw;
 	}
 
-	.category1{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.card-container{
-		display: flex;
-		flex-direction: row;
-	}
-	
-	.card{
-		background-color: var(--main-theme1);
-		font-size: 2rem;
-		max-width: 15vw;
-		max-height: 20vw;
-		margin: 1vw;
-		border-radius: 20px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+    .category1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resresource-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner{
+        font-size: 3vw;
+        background-color: var(--main-theme1);
+        width: 80vw;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    
+    .checklist{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        font-size:2vw;
+        background-color: var(--status-undone);
+        border-radius: 20px;
+    }
 
 	.contents {
 		display: flex;
