@@ -63,14 +63,14 @@ a {
 
 .card{
 	background-color: var(--main-theme1);
+	align-items: center;
+	justify-content: center;
 	font-size: 2rem;
 	width: 70vw;
 	height: 100vw;
 	margin: 2vw;
 	border-radius: 20px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .footer-title {
