@@ -49,7 +49,7 @@ nav {
 	align-items: center;
 }
 
-.landing-part1{
+.landing-part1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -70,7 +70,7 @@ nav {
 a {
 	text-decoration: none;
 	color: var(--main-theme-text);
-	padding: 2rem;
+	padding: 1rem;
 }
 .find-button {
 	align-items: center;
@@ -129,6 +129,11 @@ a {
 	font-size: 0.8rem;
 }
 
+.name-lastname {
+	display: flex;
+	flex-direction: column;
+}
+
 #message {
 	padding: 3rem;
 }
@@ -140,6 +145,17 @@ a {
 	border-radius: 50em;
 }
 
+#contact-us-image {
+	height: 250px;
+	width: 300px;
+}
+
+.contact-form-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .footer-title {
 	font-size: 1.5rem;
 }
@@ -147,6 +163,7 @@ a {
 footer {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	margin: 2rem;
 }
 
@@ -157,6 +174,7 @@ footer {
 .footer-links {
 	line-height: 1rem;
 	color: var(--main-theme1);
+	font-size: 5vw;
 }
 
 .copyright {
@@ -164,32 +182,116 @@ footer {
 }
 
 .socials {
-	line-height: 2rem;
+	margin: 1rem 1rem 1rem 0rem;
+}
+
+.fab {
+	margin-right: 1rem;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+	display: flex;
+	flex-direction: column;
+	margin-right: 3rem;
+}
+
+.contents {
+	display: flex;
+	flex-direction: column;
+}
+
+.copyright {
+	font-size: 3vw;
 }
 
 @media (min-width: 900px) {
 	nav {
 		font-size: 1.2vw;
 	}
-	#landing{
+	#landing {
 		display: flex;
 		flex-direction: row;
 	}
-	.landing-part1{
+	.cards {
+		display: flex;
+		flex-direction: row;
+		padding: 7vw 0vw 10vw 0vw;
+	}
+	.about-title,
+	.contact-title,
+	.footer-title {
+		margin-top: 5vw;
+		font-size: 3vw;
+	}
+	.about-cards {
+		margin-right: 8vw;
+	}
+	.about-image {
+		width: 15vw;
+		height: 15vw;
+	}
+	.about-text {
+		font-size: 2vw;
+	}
+	#last-card {
+		margin: 0;
+	}
+	.landing-part1 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.landing-image{
+	.landing-image {
 		height: 35vw;
 		width: 45vw;
 	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	#contact-us-image {
+		height: 45vw;
+		width: 45vw;
+		margin-right: 3vw;
+		padding: 6vw 6vw 6vw 0vw;
+	}
+
+	.contact-form-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contact-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form-entry {
+		width: 40vw;
+		margin-bottom: 3vw;
+	}
+	.name-lastname {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		width: 40vw;
+	}
+	#name-field {
+		margin-right: 2vw;
+		width: 40vw;
+	}
+
 	.head-title {
 		font-size: 4.5vw;
 		text-align: left;
 		padding: 1em 2.5rem;
 	}
-	
+
 	.desc {
 		font-size: 2.5vw;
 		text-align: left;
@@ -204,5 +306,22 @@ footer {
 		width: 7em;
 		border-radius: 50em;
 		color: var(--main-theme-text);
+	}
+
+	.contents {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-evenly;
+	}
+
+	.copyright {
+		font-size: 1.5vw;
+	}
+
+	.footer-links {
+		line-height: 1rem;
+		color: var(--main-theme1);
+		font-size: 1.5vw;
 	}
 }

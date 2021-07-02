@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
 
     <!-- SEO -->
     <meta
@@ -53,8 +56,8 @@
         <p class="desc">
           Compilation of all the resources you need as a student
         </p>
-        <a href="#">
-          <button class="find-button" onclick="window.location.href='#'">
+        <a href="./pages/resourceIndex/resIndex.html">
+          <button class="find-button" onclick="window.location.href='./pages/allResources.html'">
             Find
           </button>
         </a>
@@ -96,7 +99,7 @@
         </div>
 
         <!-- Built by CS Students -->
-        <div class="about-cards">
+        <div class="about-cards" id="last-card">
           <img src="./assets/project-images/cs-students-1.png" alt="Students building this website" class="about-image">
           <div class="about-text">
             Built by CS Students
@@ -107,25 +110,37 @@
 
     <!-- This is the contact me section -->
     <section id="contact">
-      <p class="contact-title">
+      <!-- <p class="contact-title">
         Not finding <span class="res">Resource</span>?
+      </p> -->
+      <p class=" contact-title">
+        Write us something to <span class="res">discuss</span> on<span class="res">!</span>
       </p>
-      <p class="desc">
-        Write us to discuss on!
-      </p>
 
-      <!-- Form goes here -->
-      <form id="contact-form">
-        <input type="text" placeholder="First Name" id="name-field" class="form-entry" aria-required="true">
+      <div class="contact-form-container">
+        <!-- Vector image -->
+        <img src="./assets/project-images/Contact-us-2.png" alt="Person contacting us" id="contact-us-image">
 
-        <input type="text" placeholder="Last Name" id="last-name-field" class="form-entry" aria-required="true">
+        <!-- Form goes here -->
+        <div class="contact-form">
+          <form 
+        id="contact-form" 
+        action="https://formspree.io/f/xeqvkrnr" method="POST"
+        >
+          <div class="name-lastname">
+            <input type="text" name="first-name" placeholder="First Name" id="name-field" class="form-entry" required>
 
-        <input type="email" placeholder="Email" id="email" class="form-entry" aria-required="true">
+            <input type="text" name="last-name" placeholder="Last Name" id="last-name-field" class="form-entry" required>
+          </div>
 
-        <input type="text" placeholder="Your message" id="message" class="form-entry" aria-required="true">
+          <input type="email" name="_replyto" placeholder="Email" id="email" class="form-entry" required>
 
-        <input type="submit" value="Submit" class="form-entry" id="submit-button">
-      </form>
+          <input type="text" name="message" placeholder="Your message" id="message" class="form-entry" required>
+
+          <input type="submit" value="Submit" class="form-entry" id="submit-button">
+        </form>
+        </div>
+      </div>
     </section>
 
     <!-- This is the footer section -->
@@ -137,23 +152,85 @@
         Copyright &copy; 2021 Kaiwalya Koparkar
       </p>
       <div class="socials">
-        Socials here
+
+        <a href="https://twitter.com/kaiwalya_13">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/kaiwalyakoparkar/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+
+        <a href="https://discord.com/invite/jvdcY2NkXa">
+          <i class="fab fa-discord fa-2x"></i>
+        </a>
+
+        <a href="https://github.com/kaiwalyakoparkar/Find-Me-Resource/">
+          <i class="fab fa-github-square fa-2x"></i>
+        </a>
+
+        <a href="https://www.buymeacoffee.com/kaiwalya">
+          <i class="fas fa-hand-holding-usd fa-2x"></i>
+        </a>
+
       </div>
       <div class="contents">
-        <ul>
+
+        <div class="section-1">
           <a href="#about" class="footer-links">
-            <li>About</li>
+            About
           </a>
+
           <a href="#contact" class="footer-links">
-            <li>Contact</li>
+            Contact
           </a>
+                    
+          <a href="./pages/resourceIndex/resIndex.html" class="footer-links">
+            All Resources
+          </a>
+      
+          <a href="https://www.buymeacoffee.com/kaiwalya" class="footer-links">
+            Donate
+          </a>
+        </div>
+         
+        <div class="section-2" >
           <a href="" class="footer-links">
-            <li>Find Resources</li>
+            Interview Resources
           </a>
+          
           <a href="" class="footer-links">
-            <li>Donate</li>
+            Open Source & CP
           </a>
-        </ul> 
+          
+          <a href="" class="footer-links">
+            Subjective studies
+          </a>
+
+          <a href="" class="footer-links">
+            Specific Technology
+          </a>
+        </div>
+          
+        <div class="section-3">
+
+          <a href="https://github.com/kaiwalyakoparkar/Find-Me-Resource/graphs/contributors" class="footer-links">
+            Team
+          </a>
+
+          <a href="https://github.com/kaiwalyakoparkar/Find-Me-Resource/" class="footer-links">
+            Contribute
+          </a>
+
+          <a href="https://discord.com/invite/jvdcY2NkXa" class="footer-links">
+            Join-Fellow Learners
+          </a>
+
+          <a href="https://github.com/kaiwalyakoparkar/Find-Me-Resource/issues/new/choose" class="footer-links">
+            Give suggestions 
+          </a>
+
+        </div>
       </div>
     </footer>
   </div>
